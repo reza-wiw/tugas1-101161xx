@@ -45,7 +45,7 @@
                 color: black;
             }
             .links > a {
-                color: #000;
+                color: white;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;

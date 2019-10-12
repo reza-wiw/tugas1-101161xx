@@ -12,6 +12,70 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+            html, body {
+                background-color: #fff;
+                color: black;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+            .full-height {
+                height: 100vh;
+            }
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+            .position-ref {
+                position: relative;
+            }
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+            .content {
+                text-align: center;
+            }
+            .title {
+                font-size: 84px;
+                color: black;
+            }
+            .links > a {
+                color: #000;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+
+                display: inline-block;
+                padding: 15px 20px;
+                position: relative;
+            }
+            .links > a:after {
+                background: none repeat scroll 0 0 transparent;
+                bottom: 0;
+                content: "";
+                display: block;
+                height: 2px;
+                left: 50%;
+                position: absolute;
+                background: #000;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                width: 0;
+            }
+            .links > a:hover:after {
+                width: 100%;
+                left: 0;
+            }
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+        </style>
   </head>
   <body id="top">
 
@@ -53,7 +117,7 @@
         <div class="row align-items-center justify-content-center">
           <div class="col-md-12">
             <div class="mb-5 text-center">
-              <h1 class="text-white font-weight-bold">ANGGOTA - MASTER</h1>
+              <h1 class="text-white font-weight-bold">ANGGOTA</h1>
 
             </div>
 			<center>
@@ -63,7 +127,9 @@
         <td><h4 class="text-white"> | 10116187  | </h4></td>
       </tr>
   </table>
-  <a href="http://tugas1-master-cc4.herokuapp.com/" h4 class="text-white"> Kembali ke master  </a></h4>
+  <div class="links">
+                    <a href="http://tugas1-master-cc4.herokuapp.com/" target="_blank"> Kembali ke master  </a>
+                </div>
               </div>
 			  </center>
             </form>

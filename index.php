@@ -123,12 +123,12 @@
 			<center>
         <table>
           <tr>
-        <td><h4 class="text-white"> Reza Syahfrizal </h4></td>
-        <td><h4 class="text-white"> | 10116187  | </h4></td>
+        <td><h4 class="text-white"> Reza Syahfrizal  </h4></td>
+        <td><h4 class="text-white">  | 10116187  | </h4></td>
       </tr>
   </table>
   <div class="links">
-                    <a href="http://tugas1-master-cc4.herokuapp.com/" target="_blank"> Kembali ke master  </a>
+                    <a href="http://tugas1-master-cc4.herokuapp.com/" target="_blank"><font color="text-white">Kembali ke master  </a></font> 
                 </div>
               </div>
 			  </center>
